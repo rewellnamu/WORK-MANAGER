@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WORKERS MANAGER</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="frontend.css">
+
+</head>
+<body>
+  <h1>Work Management</h1>
+  <form id="userForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Add User</button>
+  </form>
+  <div class="error" id="error"></div>
+  <table>
+    <thead>
+      <tr><th>Name</th><th>Email</th></tr>
+    </thead>
+    <tbody id="userTable"></tbody>
+  </table>
+ <script src="frontend.js"></script>
+
+</body>
+</html>
